@@ -1,0 +1,287 @@
+body{
+	margin: 0px;
+	background-image: url(fundocacto.jpg);
+	background-color: #6E8B3D;
+	font-family: Arial, sans-serif;
+	
+}
+
+.fundoBarra{
+	background-color: white;
+	height: 200px;
+	width: 100%;
+	top:0px;
+	left:0px;
+	z-index: 1;	
+}
+.barra{
+	width: 800px;
+	margin: auto;
+	text-align: right;
+	background-color: yellow;
+
+}
+.logo{
+	position: relative;
+	top:10px;
+	left:180px;
+	float: left;
+}
+.geral{
+	width: 810px;
+	position: relative;
+	left: 45%;
+	top: 10px;
+	margin-left: -415px;
+	background-image: url(wash-white-30.png);
+	padding: 25px;
+}
+.buscar{
+	border-radius: 15px;
+	border-style: none;
+	background-color: #E5E5E5;
+	padding: 3px;
+	position: relative;
+	padding-top-top:10px;
+	width: 200px;
+	height: 30px;
+	top: 8px;
+}
+.topo{
+	font-weight: bold;
+	background-color: #FFFFFF;
+	border: 1px solid #A6C9D5;
+	padding: 10px;
+	height: 100px;
+	width: 250px;
+	border-radius:5px;
+}
+.esquerda{
+	background-color: #FFFFFF;
+	border-radius: 6px;
+	border: 1px solid #A6C9D5;
+	padding: 10px;
+	width: 250px;
+	margin-top: 10px;
+	height: 150px;	
+}
+
+.direita{
+	background-color: #FFFFFF;
+	border-radius: 6px;
+	border: 1px solid #A6C9D5;
+	padding: 10px;
+	width: 700px;
+	height: 1000px;	
+	position: relative;
+	left: 287px;
+	top: -670px;
+}
+
+.info{
+	background-image: url(info.jpg);
+	height: 500px;
+}
+
+
+.rodape{
+	background-image: url(fundopreto.jpg);
+	background-color: #43CD80;
+	height: 50px;
+
+}
+
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 590px;
+	height: 50px;
+	background-color: #3b9159;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 10;
+	background-color: #1abc9c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 470px;
+	background-color: #e67e22;
+}
+
+
+h1 {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 30px;
+	color: #ecf0f1;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Cherry Swash', cursive;
+}
+
+p {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+}
+
+span {
+    color: #2BD6B4;
+}
+
+.menu{
+	margin-top:-30px;
+	margin-left:-50px;
+	background-color: #3b9159;
+}
+
+.form{
+	padding-top: 100px;
+	padding-left: 300px;
+	width: 50px;
+}
+
+.busca{
+	margin-bottom: 10px;
+	border-radius:5px;
+	border:solid 2px;
+	border-color: #32CD32;
+}
+
+.nome{
+	width:400px;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius:5px;
+	border:solid 1px;
+	border-color: #32CD32;
+
+}
+
+.email{
+	width:400px;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius:5px;
+	border:solid 1px;
+	border-color: #32CD32;
+
+}
+
+.assunto{
+	width:400px;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius:5px;
+	border:solid 1px;
+	border-color: #32CD32;
+
+}
+
+.mensagem{
+	width:400px;
+	height: 100px;
+	margin-bottom: 20px;
+	border-radius:5px;
+	border:solid 1px;
+	border-color: #32CD32;
+
+}
+
+.botao{
+	background-color: #FF7F50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width:400px;
+	height: 50px;
+	display:block ;
+	float:left;
+}
+
+.botao:hover{
+	color: #FFFFFF;
+	background-color: #D2691E;
+}
+
+.cactoform{
+	padding-left: 100px;
+	margin-top: -340px;
+}
+
+.tags{
+	background-color: #FF7F50; 
+    color: white;
+    padding: 15px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width:100px;
+	height: 50px;
+	display:block ;
+	float:left;
+	border-radius:5px;
+	margin-left: 5px;
+}
+
